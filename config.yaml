@@ -1,0 +1,27 @@
+# Build YAML
+format: 1
+
+# [Required]
+repo: oscilloscope
+organization: ad-build-test
+
+# [Required]
+# Environments this app runs on
+environments:
+  - rhel7
+
+# [Optional]
+# Build Script for building the component
+# Can be a simple command like 'make'
+build: make
+
+# [Optional]
+# dependencies this app needs built
+# component: tag name
+dependencies:
+  - epics-base: R7.0.8
+  - asyn: R4.39-1.0.1
+  - autosave: R5.10-1.0.0
+  - caPutLog: R3.7-1.0.0
+  - iocAdmin: R3.1.16-1.3.0
+  - scope-asyn: R1.5.0
