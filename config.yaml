@@ -19,7 +19,7 @@ build: make
 # dependencies this app needs built
 # component: tag name
 dependencies:
-  - epics-base: R7.0.8
+  - epics-base: R7.0.3.1-1.0
   - asyn: R4.39-1.0.1
   - autosave: R5.10-1.0.0
   - caPutLog: R3.7-1.0.0
