@@ -19,7 +19,6 @@ epicsEnvSet("ENGINEER", "M. Dunning")
 < ../common/st.cmd.soft
 
 # Initalize hardware
-#FIXME iocshLoad("$(TOP)/iocBoot/common/mdo.cmd", "NODE_NAME=scop-li20-ex04,P=SCOP:LI20:EX04")
 iocshLoad("$(TOP)/iocBoot/common/mdo.cmd", "NODE_NAME=scop-li20-ex04,P=SCOP:LI20:EX04")
 
 # Setup autosave/restore
