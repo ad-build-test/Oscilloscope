@@ -10,7 +10,7 @@ organization: ad-build-test
 environments:
   - rhel7
 
-# [Optional] 
+# [Optional]
 # Build Script for building the component
 # Can be a simple command like 'make'
 build: make
